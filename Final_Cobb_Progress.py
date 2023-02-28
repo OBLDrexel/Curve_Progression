@@ -5,11 +5,11 @@
 
 
 import numpy as np
-import cv2
+#import cv2
 import pandas as pd
-import sklearn
-from matplotlib import pyplot as plt
-import seaborn as sns
+#import sklearn
+#from matplotlib import pyplot as plt
+#import seaborn as sns
  
 features = pd.read_excel("Features_AR1.xlsx")
 #features=features.round(1)
@@ -20,7 +20,7 @@ features.head(10)
 
 
 ## Use numpy to convert to arrays
-import numpy as np
+#import numpy as np
 import pickle
 # Labels are the values we want to predict
 labels = np.array(features['Cobb_Final'])
@@ -103,7 +103,7 @@ print('Testing Labels Shape:', test_labels.shape)
 
 # Import the model we are using
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import cross_val_score, GridSearchCV
+from sklearn.model_selection import cross_val_score#, GridSearchCV
 
 rf=RandomForestRegressor(bootstrap= True, max_depth= 30, max_features= 5, min_samples_leaf= 2, min_samples_split= 7,
  n_estimators=291 , random_state = 42, oob_score=True)
