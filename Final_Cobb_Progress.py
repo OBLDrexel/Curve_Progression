@@ -7,6 +7,7 @@
 import numpy as np
 import cv2
 import pandas as pd
+import sklearn
 from matplotlib import pyplot as plt
 import seaborn as sns
  
@@ -18,7 +19,7 @@ features.head(10)
 # In[2]:
 
 
-# Use numpy to convert to arrays
+## Use numpy to convert to arrays
 import numpy as np
 import pickle
 # Labels are the values we want to predict
