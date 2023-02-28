@@ -7,7 +7,7 @@
 import numpy as np
 #import cv2
 import pandas as pd
-#import sklearn
+import sklearn
 #from matplotlib import pyplot as plt
 #import seaborn as sns
  
@@ -89,7 +89,7 @@ from sklearn.model_selection import train_test_split
 train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.25, random_state = 42)
 
 
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 #train_features = sc.fit_transform(train_features)
 #test_features = sc.transform(test_features)

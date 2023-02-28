@@ -2,7 +2,7 @@ flask
 pandas
 gunicorn
 xgboost
-sklearn
+scikit-learn
 numpy
 plotly
 matplotlib
